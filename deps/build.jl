@@ -1,3 +1,9 @@
+if Sys.islinux()
+
+else
+  error("This package only works on Linux")
+end
+
 # find directories
 exedir = joinpath(@__DIR__, "bin")
 

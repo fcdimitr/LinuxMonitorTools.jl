@@ -1,3 +1,5 @@
 /Manifest.toml
 deps/build.log
 deps/deps.jl
+
+.vscode
