@@ -1,0 +1,13 @@
+name = "LinuxMonitorTools"
+uuid = "80d372f8-aa3e-4975-afec-a1ecb57056f1"
+authors = ["Dimitris Floros <fcdimitr@ece.auth.gr>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
